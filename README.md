@@ -5,6 +5,7 @@ A simple linux shell, completely written in C.
 Created by Dylan Maltos.
 
 ## Project Goals
+* Implemented a unique initial startup sequence that immediately occurs when program is run.
 * Takes UNIX external commands such as ls, emacs, cd, etc.
 * Takes internal commands:
   - exit: Terminates DonutShell.
@@ -17,7 +18,7 @@ Created by Dylan Maltos.
   - Valid Characters: `A-Z`, `a-z`, `0-9`, `-`, `.`, `/`, and `_`.
 
 ## Build Instructions
-How to correctly build and run DonutShell
+How to correctly build and run DonutShell:
 <pre>
 gcc -o DonutShell DonutShell.c -lm
 

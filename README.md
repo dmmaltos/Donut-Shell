@@ -1,7 +1,6 @@
 # DonutShell 
 
 A simple Linux shell, completely written in C.
-
 Created by Dylan Maltos.
 
 ## Goals & Objectives

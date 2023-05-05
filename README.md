@@ -7,8 +7,8 @@ Created by Dylan Maltos.
 ## Goals
 
 * Implement a unique shell startup sequence that immediately occurs when program is run.
-* Takes UNIX external commands such as ls, emacs, cd, etc.
-* Takes internal commands:
+* Handles UNIX external commands such as ls, emacs, cd, etc.
+* Handles internal commands:
   - exit: Terminates DonutShell.
   - print: Prints the current PID to console.
   - help: Prints the DonutShell help desk, provides available commands.
@@ -30,8 +30,13 @@ gcc -o DonutShell DonutShell.c -lm
 ## Structure
 
 * When program is run it begins its startup sequence:
-  - Loading screen.
+  - A loading screen stating that DonutShell is initializing.
   - A spinning donut.
-  - Welcome screen.
-  - Prompts the user for a line of input.
-
+  - A screen welcoming the user to DonutShell.
+  - Finally, prompting the user for a line of input.
+  
+* Loops to read given user input lines and checks for:
+  - Multiple commands seperated by the ampersand character (&), to execute concurrently.
+  - The number of characters in the input line, if over 100 characters, then the input line is truncated back down to 100 characters.
+  - Command arguments.
+  - Invalid characters in commands or arguments.

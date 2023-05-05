@@ -10,7 +10,7 @@ Created by Dylan Maltos.
   - exit: Terminates DonutShell.
   - print: Prints the current PID to console.
   - help: Prints the DonutShell help desk, provides available commands.
-* By using the ampersand character (&) to seperate commands in user input, commands will execute concurrently.
+* By using the ampersand character (&) to seperate commands in user input, results incommands will execute concurrently.
 * Truncates a given user input line back down to 100 characters, if input is longer than 100 characters.
 * Supports multiple argumments for commands.
 * If an invalid character is found in an argument or command, shell prints an error message, then proceeds to ignore the rest of the given user input line.

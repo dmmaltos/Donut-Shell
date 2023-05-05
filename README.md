@@ -14,7 +14,7 @@ Created by Dylan Maltos.
 * Truncates a given user input line back down to 100 characters, if input is longer than 100 characters.
 * Supports multiple argumments for commands.
 * If an invalid character is found in an argument or command, shell prints an error message, then proceeds to ignore the rest of the given user input line.
-  - Valid Characters: <pre>A-Z</pre>, <pre>a-z</pre>, <pre>0-9</pre>, <pre>-</pre>, <pre>.</pre>, <pre>/</pre>, and <pre>_</pre>.
+  - Valid Characters: `A-Z`, `a-z`, `0-9`, `-`, `.`, `/`, and `_`.
 
 # Build Instructions
 How to correctly build and run DonutShell

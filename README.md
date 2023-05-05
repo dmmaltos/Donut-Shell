@@ -29,14 +29,27 @@ gcc -o DonutShell DonutShell.c -lm
 
 ## Structure
 
-* When program is run it begins its startup sequence:
+* Startup sequence:
+
   - A loading screen stating that DonutShell is initializing.
   - A spinning donut.
   - A screen welcoming the user to DonutShell.
   - Finally, prompting the user for a line of input.
   
-* Loops to read given user input lines and checks for:
-  - Multiple commands seperated by the ampersand character (&), to execute concurrently.
-  - The number of characters in the input line, if over 100 characters, then the input line is truncated back down to 100 characters.
-  - Command arguments.
-  - Invalid characters in commands or arguments.
+* Main loop:
+
+  - Reads given user input lines and checks for:
+  
+    - Multiple commands seperated by the ampersand character (&).
+    - If the input line is over 100 characters.
+    - Command arguments.
+    - Invalid characters in commands or arguments.
+  
+  - Executes given user input line:
+    - Commands seperated by ampersand chracter (&) execute concurrently.
+    - Truncates user input line down to 100 caracters, if over 100 chracters.
+    - Executes command arguments properly (ex. 'cd Folder/' will bring you to directory 'Folder/').
+    - Invalid characters in given commands or arguments, result in a errorm message, the rest of user input line is ignored.
+   
+  - Repeats:
+    - Until CTRL-C signal or internal exit command is given.

@@ -4,7 +4,7 @@ A simple linux shell, completely written in C.
 
 Created by Dylan Maltos.
 
-# Project Goals
+## Project Goals
 * Takes UNIX external commands such as ls, emacs, cd, etc.
 * Takes internal commands:
   - exit: Terminates DonutShell.
@@ -16,7 +16,7 @@ Created by Dylan Maltos.
 * If an invalid character is found in an argument or command, shell prints an error message, then proceeds to ignore the rest of the given user input line.
   - Valid Characters: `A-Z`, `a-z`, `0-9`, `-`, `.`, `/`, and `_`.
 
-# Build Instructions
+## Build Instructions
 How to correctly build and run DonutShell
 <pre>
 gcc -o DonutShell DonutShell.c -lm

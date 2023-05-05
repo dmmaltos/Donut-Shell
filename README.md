@@ -2,7 +2,7 @@
 Author: Dylan Maltos
 
 # Build Instructions
-How to correctly build and run DonutShell:
+How to correctly build and run DonutShell
 <pre>
 gcc -o DonutShell DonutShell.c -lm
 

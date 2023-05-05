@@ -2,6 +2,9 @@
 Author: Dylan Maltos
 
 # Build Instructions
-To correctly compile DonutShell.c:
+How to correctly build and run DonutShell:
+<pre>
+gcc -o DonutShell DonutShell.c -lm
 
-"gcc -o DonutShell DonutShell.c -lm"
+./DonutShell
+</pre>

@@ -35,7 +35,7 @@ gcc -o DonutShell DonutShell.c -lm
   - A loading screen stating that DonutShell is initializing.
   - A spinning donut.
   - A screen welcomes the user to DonutShell.
-  - Finally, prompts the user for a line of input.
+  - Prompts the user for a line of input.
   
 * Main loop:
 

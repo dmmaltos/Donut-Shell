@@ -1,4 +1,4 @@
-# Donut Shell 
+# DonutShell 
 
 A simple linux shell, completely written in C.
 

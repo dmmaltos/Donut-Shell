@@ -4,7 +4,7 @@ A simple linux shell, completely written in C.
 
 Created by Dylan Maltos.
 
-## Goals
+## Goals & Objectives
 
 * Implement a unique shell startup sequence that immediately occurs when program is run.
 * Handles UNIX external commands such as ls, emacs, cd, etc.
@@ -21,6 +21,7 @@ Created by Dylan Maltos.
 ## Build Instructions
 
 How to correctly build and run DonutShell:
+
 <pre>
 gcc -o DonutShell DonutShell.c -lm
 

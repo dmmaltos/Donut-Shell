@@ -53,4 +53,4 @@ gcc -o DonutShell DonutShell.c -lm
     - Invalid characters in given commands or arguments, result in a errorm message, the rest of user input line is ignored.
    
   - Repeats:
-    - Until CTRL-C signal or internal exit command is given.
+    - Until 'CTRL-C' signal or internal command 'exit' is given.

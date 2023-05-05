@@ -28,7 +28,7 @@ gcc -o DonutShell DonutShell.c -lm
 ./DonutShell
 </pre>
 
-## Structure
+## Program Structure
 
 * Startup sequence:
 

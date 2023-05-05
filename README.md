@@ -49,8 +49,8 @@ gcc -o DonutShell DonutShell.c -lm
   - Executes given user input line:
     - Commands seperated by ampersand chracter (&) execute concurrently.
     - Truncates user input line down to 100 caracters, if over 100 chracters.
-    - Executes command arguments properly (ex. 'cd Folder/' will bring you to directory 'Folder/').
+    - Executes command arguments properly (ex. `cd Folder/` will bring you to directory `Folder/`).
     - Invalid characters in given commands or arguments, result in a errorm message, the rest of user input line is ignored.
    
   - Repeats:
-    - Until 'CTRL-C' signal or internal command 'exit' is given.
+    - Until `CTRL-C` signal or internal command `exit` is given.

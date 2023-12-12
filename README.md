@@ -51,6 +51,6 @@ gcc -o DonutShell DonutShell.c -lm
     - Truncates user input line down to 100 caracters, if over 100 characters.
     - Executes command arguments properly (ex. `cd Folder/` will bring you to directory `Folder/`).
     - Invalid characters in given commands or arguments, result in a error message, the rest of user input line is ignored.
-   
+   f
   - Repeats:
     - Until `CTRL-C` signal or internal command `exit` is given.

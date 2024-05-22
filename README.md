@@ -47,8 +47,8 @@ gcc -o DonutShell DonutShell.c -lm
     - Invalid characters in commands or arguments.
   
   - Executes the given user input line:
-    - Commands seperated by ampersand chracter (&) execute concurrently.
-    - Truncates user input line down to 100 caracters, if over 100 characters.
+    - Commands seperated by ampersand character (&) execute concurrently.
+    - Truncates user input line down to 100 characters, if over 100 characters.
     - Executes command arguments properly (ex. `cd Folder/` will bring you to directory `Folder/`).
     - Invalid characters in given commands or arguments, result in a error message, the rest of user input line is ignored.
    
